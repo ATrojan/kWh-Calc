@@ -1,7 +1,6 @@
 #Written by A.Trojan
 
 x = 1
-#cost = 0.22 SDGE amount as of 2013
 
 #While loop establishes the Devices operating Wattage for calculation
 #Volts x Amps = Watts
@@ -31,8 +30,8 @@ while x == 1:
         print "Incorrect Entry!"
         print "Please enter Yes or No."
     
-#Amount per kWh based on users provider SDGE is currently .22cents
-print "Your Providers cost per Kilowatt-hour (SDGE is .22):"
+#Amount per kWh based on users provider.
+print "Your Providers cost per Kilowatt-hour:"
 cost = raw_input(float)
 
 #Average hours device will be running per day
