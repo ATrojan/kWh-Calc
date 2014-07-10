@@ -10,7 +10,7 @@ while x == 1:
     print "Do you know the wattage of the Device? (Yes or No)"
     maths = raw_input()
     
-     if maths.lower() == 'yes'or maths.lower() == 'y':
+    if maths.lower() == 'yes'or maths.lower() == 'y':
         print "Please enter the Device Wattage: "
         watts = raw_input()
         x = x + 1
