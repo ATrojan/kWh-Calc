@@ -10,12 +10,12 @@ while x == 1:
     print "Do you know the wattage of the Device? (Yes or No)"
     maths = raw_input()
     
-    if (maths == 'Yes' or 'yes' or 'y' or 'Y'):
+     if maths.lower() == 'yes'or maths.lower() == 'y':
         print "Please enter the Device Wattage: "
-        watts = raw_input(float)
+        watts = raw_input()
         x = x + 1
-    
-    elif maths == 'No' or 'no' or 'n' or 'N':
+        
+    elif maths.lower() == 'no'or maths.lower() == 'n':
         print "Enter the Voltage of the Device: "
         volts = raw_input(float)
         print "Enter the Amperage of the Device: " 
